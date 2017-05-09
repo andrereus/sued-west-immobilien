@@ -4,7 +4,7 @@
   "description": "Süd-West Immobilien",
   "scripts": {
     "serve": "browser-sync start --server --files \"**/*, !scss/**\"",
-    "sass": "node-sass scss/main.scss css/main.css -watch",
+    "sass": "node-sass scss/main.scss css/main.css --watch",
     "all": "npm-run-all --parallel serve sass"
   },
   "repository": {
