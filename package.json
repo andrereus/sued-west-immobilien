@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --files \"**/*, !scss/**\"",
+    "sass": "node-sass scss/main.scss css/main.css -w",
+    "all": "parallelshell \"npm run serve\" \"npm run sass\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/andrereus/sued-west-immobilien/issues"
   },
-  "homepage": "https://github.com/andrereus/sued-west-immobilien#readme"
+  "homepage": "https://github.com/andrereus/sued-west-immobilien#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "node-sass": "^4.5.2",
+    "parallelshell": "^2.0.0"
+  }
 }
