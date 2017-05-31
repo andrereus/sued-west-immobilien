@@ -15,8 +15,8 @@
   "bugs": "https://github.com/andrereus/sued-west-immobilien/issues",
   "homepage": "https://github.com/andrereus/sued-west-immobilien#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "node-sass": "^4.5.2",
+    "browser-sync": "^2.18.12",
+    "node-sass": "^4.5.3",
     "npm-run-all": "^4.0.2"
   }
 }
