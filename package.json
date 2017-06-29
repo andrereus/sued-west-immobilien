@@ -18,5 +18,8 @@
     "browser-sync": "^2.18.12",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.0.2"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.2.10"
   }
 }
