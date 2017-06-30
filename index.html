@@ -75,7 +75,11 @@
                         75365 Calw</p>
                         <p>Telefon: +49 7051 938012<br>
                         Telefax: +49 7051 938013<br>
-                        E-Mail: swi-immo@gmx.de</p>
+                        <script>
+                            var part1 = "swi-immo", part2 = "gmx", part3 = "de";
+                            document.write("E-Mail: <a href=\"mailto:" + part1 + "@null" + part2 + "." + part3 + "\" onclick=\"this.href=this.href.replace(/null/,'');\">" + part1 + "@<span style=\"display:none;\">null</span>" + part2 + "." + part3 + "</a></p>");
+                        </script>
+                        <noscript><img src="img/email.png" alt="E-Mail"></noscript>
                         <p>Geschäftsführer: Werner Wehle<br>
                         Registergericht: Amtsgericht Stuttgart<br>
                         Registernummer: HRB 331576<br>
