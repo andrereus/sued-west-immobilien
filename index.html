@@ -9,12 +9,14 @@
         <meta name="description" content="Süd-West Immobilien">
 
         <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+        <link rel="stylesheet" href="slick/slick.css">
+        <link rel="stylesheet" href="slick/slick-theme.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <div class="ui container">
             <div class="ui secondary menu">
-                <a href="index.html"><img src="img/logo.png" width="100" height="50"></a>
+                <a href="index.html" class="logo"><img src="img/logo.png" width="100" height="50"></a>
                 <div class="right menu">
                     <a href="#ueberuns" class="item vertnav"><i class="info circle icon"></i> Über uns</a>
                     <a href="#leistungen" class="item vertnav"><i class="travel icon"></i> Leistungen</a>
@@ -34,6 +36,11 @@
                 <a href="#kontakt" class="item"><i class="mail icon"></i> Kontakt</a>
                 <a href="#" class="item"><i class="external square icon"></i> ImmobilienScout24</a>
             </div>
+
+            <div class="carousel">
+                <div><img src="https://unsplash.it/1600/900" alt=""></div>
+                <div><img src="http://lorempixel.com/1600/900" alt=""></div>
+            </div>
         </div>
 
         <script
@@ -41,11 +48,7 @@
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
         <script src="semantic/dist/semantic.min.js"></script>
-
-        <script>
-            $('.toggle').on('click', function() {
-                $('.ui.sidebar').sidebar('toggle');
-            });
-        </script>
+        <script src="slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

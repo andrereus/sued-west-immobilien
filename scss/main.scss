@@ -1,5 +1,10 @@
+// Menu
 .ui.secondary.menu {
     margin-top: 20px;
+
+    .logo {
+        margin-left: 10px;
+    }
 
     .sidenav {
         display: none;
@@ -14,4 +19,41 @@
             display: block;
         }
     }
+}
+
+// Carousel
+.carousel img {
+    width: 100%;
+    height: 100%;
+}
+
+// https://github.com/kenwheeler/slick/issues/981
+.carousel > div {
+    display: none;
+}
+
+.carousel {
+    padding-bottom: 25%;
+}
+
+.slick-initialized > div {
+    display: block;
+}
+
+.slick-initialized {
+    padding-bottom: 0;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+// Arrows inside
+.slick-prev {
+    left: 20px;
+    z-index: 1;
+}
+
+.slick-next {
+    right: 20px;
 }
