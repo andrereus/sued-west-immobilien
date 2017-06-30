@@ -44,5 +44,10 @@
 .slick-next {
   right: 10px; }
 
-p, ul, ol {
+p, a, ul, ol {
   font-size: 1.1rem; }
+
+.immoad {
+  display: inline-block;
+  padding-top: 8px;
+  margin-bottom: 8px; }
