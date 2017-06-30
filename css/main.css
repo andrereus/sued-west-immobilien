@@ -5,7 +5,7 @@
   .ui.secondary.menu.head .sidenav {
     display: none; }
   @media (max-width: 767px) {
-    .ui.secondary.menu.head .vertnav {
+    .ui.secondary.menu.head .headnav {
       display: none; }
     .ui.secondary.menu.head .sidenav {
       display: block; } }
@@ -14,6 +14,11 @@
   margin: 20px 0; }
   .ui.secondary.menu.foot .copy {
     margin: 10px 0 0 15px; }
+  @media (max-width: 767px) {
+    .ui.secondary.menu.foot .footnav {
+      display: none; }
+    .ui.secondary.menu.foot .copy {
+      margin: 10px auto 15px; } }
 
 .carousel {
   margin-bottom: 30px; }

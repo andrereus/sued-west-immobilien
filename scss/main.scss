@@ -11,7 +11,7 @@
     }
 
     @media (max-width: 767px) {
-        .vertnav {
+        .headnav {
             display: none;
         }
 
@@ -26,6 +26,16 @@
 
     .copy {
         margin: 10px 0 0 15px;
+    }
+
+    @media (max-width: 767px) {
+        .footnav {
+            display: none;
+        }
+
+        .copy {
+            margin: 10px auto 15px;
+        }
     }
 }
 
