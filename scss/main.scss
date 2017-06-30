@@ -47,24 +47,22 @@
 .carousel img {
     width: 100%;
     height: 100%;
-
-    border-radius: 4px;
 }
 
 // https://github.com/kenwheeler/slick/issues/981
-.carousel > div {
-    display: none;
-}
-
 .carousel {
+    > div {
+        display: none;
+    }
+    
     padding-bottom: 25%;
 }
 
-.slick-initialized > div {
-    display: block;
-}
-
 .slick-initialized {
+    > div {
+        display: block;
+    }
+
     padding-bottom: 0;
 }
 
@@ -89,7 +87,6 @@ p, a, ul, ol {
 
 .immoad {
     display: inline-block;
-    
     padding-top: 8px;
     margin-bottom: 8px;
 }
