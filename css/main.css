@@ -1,2 +1,9 @@
 .ui.secondary.menu {
   margin-top: 20px; }
+  .ui.secondary.menu .sidenav {
+    display: none; }
+  @media (max-width: 750px) {
+    .ui.secondary.menu .vertnav {
+      display: none; }
+    .ui.secondary.menu .sidenav {
+      display: block; } }
