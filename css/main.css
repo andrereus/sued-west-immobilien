@@ -1,14 +1,22 @@
-.ui.secondary.menu {
+.ui.secondary.menu.head {
   margin-top: 20px; }
-  .ui.secondary.menu .logo {
+  .ui.secondary.menu.head .logo {
     margin-left: 15px; }
-  .ui.secondary.menu .sidenav {
+  .ui.secondary.menu.head .sidenav {
     display: none; }
-  @media (max-width: 750px) {
-    .ui.secondary.menu .vertnav {
+  @media (max-width: 767px) {
+    .ui.secondary.menu.head .vertnav {
       display: none; }
-    .ui.secondary.menu .sidenav {
+    .ui.secondary.menu.head .sidenav {
       display: block; } }
+
+.ui.secondary.menu.foot {
+  margin: 20px 0; }
+  .ui.secondary.menu.foot .copy {
+    margin: 10px 0 0 15px; }
+
+.carousel {
+  margin-bottom: 30px; }
 
 .carousel img {
   width: 100%;
@@ -35,3 +43,6 @@
 
 .slick-next {
   right: 10px; }
+
+p, ul, ol {
+  font-size: 1.1rem; }

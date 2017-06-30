@@ -1,5 +1,5 @@
 // Menu
-.ui.secondary.menu {
+.ui.secondary.menu.head {
     margin-top: 20px;
 
     .logo {
@@ -10,7 +10,7 @@
         display: none;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 767px) {
         .vertnav {
             display: none;
         }
@@ -21,7 +21,19 @@
     }
 }
 
+.ui.secondary.menu.foot {
+    margin: 20px 0;
+
+    .copy {
+        margin: 10px 0 0 15px;
+    }
+}
+
 // Carousel
+.carousel {
+    margin-bottom: 30px;
+}
+
 .carousel img {
     width: 100%;
     height: 100%;
@@ -56,4 +68,9 @@
 
 .slick-next {
     right: 10px;
+}
+
+// Text
+p, ul, ol {
+    font-size: 1.1rem;
 }
