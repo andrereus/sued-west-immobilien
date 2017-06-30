@@ -1,7 +1,7 @@
 .ui.secondary.menu {
   margin-top: 20px; }
   .ui.secondary.menu .logo {
-    margin-left: 10px; }
+    margin-left: 15px; }
   .ui.secondary.menu .sidenav {
     display: none; }
   @media (max-width: 750px) {
@@ -30,8 +30,8 @@
   margin-bottom: 0; }
 
 .slick-prev {
-  left: 20px;
+  left: 10px;
   z-index: 1; }
 
 .slick-next {
-  right: 20px; }
+  right: 10px; }
