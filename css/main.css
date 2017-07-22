@@ -54,3 +54,27 @@ p, a, ul, ol {
   display: inline-block;
   padding-top: 8px;
   margin-bottom: 8px; }
+
+.ueber-img {
+  width: 125px;
+  height: 150px;
+  float: right; }
+
+.width-wrapper {
+  padding-right: 10px;
+  overflow: hidden; }
+
+.ueber-text {
+  width: 100%; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.ui.grid.leistungen {
+  margin-top: 5px;
+  margin-bottom: 5px; }

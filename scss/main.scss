@@ -90,3 +90,36 @@ p, a, ul, ol {
     padding-top: 8px;
     margin-bottom: 8px;
 }
+
+// Über
+.ueber-img {
+    width: 125px;
+    height: 150px;
+    float: right;
+}
+
+.width-wrapper {
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.ueber-text {
+    width: 100%;
+}
+
+// Clearfix
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+//Leistungen
+.ui.grid.leistungen {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
