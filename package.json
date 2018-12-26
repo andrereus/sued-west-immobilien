@@ -14,6 +14,8 @@
   "author": "Andre Reus",
   "bugs": "https://github.com/andrereus/sued-west-immobilien/issues",
   "homepage": "https://github.com/andrereus/sued-west-immobilien#readme",
+  "license": "UNLICENSED",
+  "private": true,
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "node-sass": "^4.5.3",
